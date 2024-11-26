@@ -1,0 +1,10 @@
+{
+  "id": "tiered:critical",
+  "weight": 0,
+  "reforge_experience_cost": 3,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "verifiers": [{ "tag": "forge:swords" }, { "tag": "forge:axes" }],
+  "style": { "color": "aqua" },
+  "attributes": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "tiered:rusted_tool",
+  "weight": 16,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:toolsmiths_hammer",
+  "verifiers": [
+    { "id": "minecraft:iron_axe" },
+    { "id": "minecraft:iron_pickaxe" },
+    { "id": "minecraft:iron_hoe" },
+    { "id": "minecraft:iron_shovel" }
+  ],
+  "style": { "color": "red" },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:rusted_tool",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.07
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "unionlib:generic.dig_speed",
+      "modifier": {
+        "name": "tiered:rusted_tool",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.1
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}

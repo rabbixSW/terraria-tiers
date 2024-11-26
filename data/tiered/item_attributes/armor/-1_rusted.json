@@ -1,0 +1,25 @@
+{
+  "id": "tiered:rusted_armor",
+  "weight": 16,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:armorers_hammer",
+  "verifiers": [
+    { "id": "minecraft:iron_helmet" },
+    { "id": "minecraft:iron_chestplate" },
+    { "id": "minecraft:iron_leggings" },
+    { "id": "minecraft:iron_boots" }
+  ],
+  "style": { "color": "red" },
+  "attributes": [
+    {
+      "type": "generic.armor",
+      "modifier": {
+        "name": "tiered:rusted_armor",
+        "operation": "ADDITION",
+        "amount": -2
+      },
+      "optional_equipment_slots": ["FEET", "LEGS", "CHEST", "HEAD"]
+    }
+  ]
+}

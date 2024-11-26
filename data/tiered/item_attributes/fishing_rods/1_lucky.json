@@ -1,0 +1,21 @@
+{
+  "id": "tiered:lucky",
+  "weight": 16,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:toolsmiths_hammer",
+  "verifiers": [{ "id": "minecraft:fishing_rod" }],
+  "style": { "color": "green" },
+  "attributes": [
+    {
+      "type": "generic.luck",
+      "modifier": {
+        "name": "tiered:lucky",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}
+

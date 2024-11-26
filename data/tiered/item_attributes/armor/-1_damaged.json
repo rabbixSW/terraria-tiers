@@ -1,0 +1,26 @@
+{
+  "id": "tiered:broken_armor",
+  "weight": 16,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:armorers_hammer",
+  "verifiers": [
+    { "tag": "forge:helmets" },
+    { "tag": "forge:chestplates" },
+    { "tag": "forge:leggings" },
+    { "tag": "forge:boots" },
+    { "tag": "forge:shields" }
+  ],
+  "style": { "color": "red" },
+  "attributes": [
+    {
+      "type": "generic.armor",
+      "modifier": {
+        "name": "tiered:broken_armor",
+        "operation": "ADDITION",
+        "amount": -3
+      },
+      "optional_equipment_slots": ["FEET", "LEGS", "CHEST", "HEAD"]
+    }
+  ]
+}

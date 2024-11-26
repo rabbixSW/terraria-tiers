@@ -1,0 +1,34 @@
+{
+  "id": "tiered:agile",
+  "weight": 16,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:toolsmiths_hammer",
+  "verifiers": [
+    { "tag": "forge:axes" },
+    { "tag": "forge:hoes" },
+    { "tag": "forge:pickaxes" },
+    { "tag": "forge:shovels" }
+  ],
+  "style": { "color": "red" },
+  "attributes": [
+    {
+      "type": "unionlib:generic.dig_speed",
+      "modifier": {
+        "name": "tiered:agile",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "tiered:agile",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}

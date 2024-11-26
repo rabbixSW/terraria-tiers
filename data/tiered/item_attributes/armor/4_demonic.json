@@ -1,0 +1,35 @@
+{
+  "id": "tiered:demonic_armor",
+  "weight": 2,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:armorers_hammer",
+  "verifiers": [
+    { "tag": "forge:helmets" },
+    { "tag": "forge:chestplates" },
+    { "tag": "forge:leggings" },
+    { "tag": "forge:boots" },
+    { "tag": "forge:shields" }
+  ],
+  "style": { "color": "light_purple" },
+  "attributes": [
+    {
+      "type": "generic.armor",
+      "modifier": {
+        "name": "tiered:demonic_armor",
+        "operation": "ADDITION",
+        "amount": 3
+      },
+      "optional_equipment_slots": ["FEET", "LEGS", "CHEST", "HEAD"]
+    },
+    {
+      "type": "generic.max_health",
+      "modifier": {
+        "name": "tiered:demonic_armor",
+        "operation": "ADDITION",
+        "amount": 6
+      },
+      "optional_equipment_slots": ["FEET", "LEGS", "CHEST", "HEAD"]
+    }
+  ]
+}

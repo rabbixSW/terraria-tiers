@@ -1,0 +1,35 @@
+{
+  "id": "tiered:shoddy_armor",
+  "weight": 8,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:armorers_hammer",
+  "verifiers": [
+    { "tag": "forge:helmets" },
+    { "tag": "forge:chestplates" },
+    { "tag": "forge:leggings" },
+    { "tag": "forge:boots" },
+    { "tag": "forge:shields" }
+  ],
+  "style": { "color": "dark_red" },
+  "attributes": [
+    {
+      "type": "generic.armor",
+      "modifier": {
+        "name": "tiered:shoddy_armor",
+        "operation": "ADDITION",
+        "amount": -2
+      },
+      "optional_equipment_slots": ["FEET", "LEGS", "CHEST", "HEAD"]
+    },
+    {
+      "type": "generic.knockback_resistance",
+      "modifier": {
+        "name": "tiered:shoddy_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.15
+      },
+      "optional_equipment_slots": ["FEET", "LEGS", "CHEST", "HEAD"]
+    }
+  ]
+}

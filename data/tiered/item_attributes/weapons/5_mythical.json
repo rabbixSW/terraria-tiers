@@ -1,0 +1,56 @@
+{
+  "id": "tiered:mythical",
+  "weight": 2,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "verifiers": [{ "tag": "forge:swords" }, { "tag": "forge:axes" }],
+  "style": { "color": "gold" },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:mythical",
+        "operation": "ADDITION",
+        "amount": 2.5
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "tiered:mythical",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.17
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "unionlib:generic.critical_rate",
+      "modifier": {
+        "name": "tiered:mythical",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "forge:attack_range",
+      "modifier": {
+        "name": "tiered:mythical",
+        "operation": "ADDITION",
+        "amount": 2
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "tiered:mythical",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tiered:rare_tool",
+  "weight": 0,
+  "reforge_experience_cost": 6,
+  "reforge_durability_cost": 3,
+  "reforge_item": "tiered:toolsmiths_hammer",
+  "verifiers": [
+    { "tag": "forge:shovels" },
+    { "tag": "forge:pickaxes" },
+    { "tag": "forge:hoes" },
+    { "tag": "forge:axes" }
+  ],
+  "style": { "color": "aqua" },
+  "attributes": []
+}

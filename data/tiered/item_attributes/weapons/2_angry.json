@@ -1,0 +1,20 @@
+{
+  "id": "tiered:angry",
+  "weight": 8,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "verifiers": [{ "tag": "forge:swords" }, { "tag": "forge:axes" }],
+  "style": { "color": "green" },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:angry",
+        "operation": "ADDITION",
+        "amount": 2
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}

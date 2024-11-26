@@ -1,0 +1,16 @@
+{
+  "id": "tiered:extended",
+  "weight": 0,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:toolsmiths_hammer",
+  "verifiers": [
+    { "tag": "forge:swords" },
+    { "tag": "forge:axes" },
+    { "tag": "forge:pickaxes" },
+    { "tag": "forge:shovels" },
+    { "tag": "forge:hoes" }
+  ],
+  "style": { "color": "aqua" },
+  "attributes": []
+}

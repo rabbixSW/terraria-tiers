@@ -1,0 +1,10 @@
+{
+  "id": "tiered:legendary_tool",
+  "weight": 0,
+  "reforge_experience_cost": 10,
+  "reforge_durability_cost": 5,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "verifiers": [{ "tag": "forge:swords" }],
+  "style": { "color": "aqua" },
+  "attributes": []
+}

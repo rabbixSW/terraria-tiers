@@ -1,0 +1,15 @@
+{
+  "id": "tiered:epic_armor",
+  "weight": 0,
+  "reforge_experience_cost": 8,
+  "reforge_durability_cost": 4,
+  "reforge_item": "tiered:armorers_hammer",
+  "verifiers": [
+    { "tag": "forge:helmets" },
+    { "tag": "forge:chestplates" },
+    { "tag": "forge:leggings" },
+    { "tag": "forge:boots" }
+  ],
+  "style": { "color": "aqua" },
+  "attributes": []
+}

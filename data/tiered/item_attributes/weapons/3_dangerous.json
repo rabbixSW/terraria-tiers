@@ -1,0 +1,38 @@
+{
+  "id": "tiered:dangerous",
+  "weight": 4,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "verifiers": [{ "tag": "forge:swords" }, { "tag": "forge:axes" }],
+  "style": { "color": "blue" },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:dangerous",
+        "operation": "ADDITION",
+        "amount": 0.5
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "unionlib:generic.critical_rate",
+      "modifier": {
+        "name": "tiered:dangerous",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "forge:attack_range",
+      "modifier": {
+        "name": "tiered:dangerous",
+        "operation": "ADDITION",
+        "amount": 0.5
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tiered:legendary_weapon",
+  "weight": 2,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "verifiers": [{ "tag": "forge:swords" }, { "tag": "forge:axes" }],
+  "style": { "color": "gold" },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:legendary_weapon",
+        "operation": "ADDITION",
+        "amount": 2
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "tiered:legendary_weapon",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "unionlib:generic.critical_rate",
+      "modifier": {
+        "name": "tiered:legendary_weapon",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "forge:attack_range",
+      "modifier": {
+        "name": "tiered:legendary_weapon",
+        "operation": "ADDITION",
+        "amount": 1
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    },
+    {
+      "type": "generic.attack_knockback",
+      "modifier": {
+        "name": "tiered:legendary_weapon",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": ["MAINHAND"]
+    }
+  ]
+}
